@@ -38,3 +38,9 @@ variable "ebs_instance_id" {
   type        = string
   description = "Instance ID for the EBS volume"
 }
+
+variable "extra_tags" {
+  type = map(string)
+  description = "A map of tags to add to all resources."
+  default = {}
+}
