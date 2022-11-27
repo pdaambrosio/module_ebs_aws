@@ -23,7 +23,7 @@ variable "ebs_type" {
 }
 
 variable "ebs_iops" {
-  type        = number
+  type        = string
   description = "IOPS for the EBS volume"
   default     = "io1"
 }
